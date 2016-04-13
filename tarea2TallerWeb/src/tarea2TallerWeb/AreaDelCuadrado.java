@@ -6,4 +6,5 @@ public class AreaDelCuadrado {
 	public float calcular(){
 		return( longitudDeLado * longitudDeLado);
 	}
+	/*comento comento comento anda?*/
 }
