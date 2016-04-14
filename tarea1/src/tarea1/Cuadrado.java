@@ -1,4 +1,4 @@
-package tarea2TallerWeb;
+package tarea1;
 
 public class Cuadrado {
 	
