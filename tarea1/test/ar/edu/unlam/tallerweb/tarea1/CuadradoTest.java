@@ -6,9 +6,9 @@ import org.junit.Test;
 public class CuadradoTest {
 
 	@Test
-	public void TestPerimetroCuadrado(){
+	public void testPerimetroCuadrados(){
 		Cuadrado miCuadrado = new Cuadrado();
-		Integer valorEsperado = (Integer)16;
+		Float valorEsperado = (float)16;
 		
 		Integer valorObtenido = miCuadrado.perimetro();
 		Assert.assertEquals(valorEsperado, valorObtenido);
@@ -16,9 +16,9 @@ public class CuadradoTest {
 	}		
 	
 	@Test
-	public void TestAreaCuadrados(){
+	public void testAreaCuadrados(){
 		Cuadrado miCuadrado = new Cuadrado();
-		Double valorEsperado = (Double)16.0;
+		Double valorEsperado = 16.0;
 		
 		Double valorObtenido = miCuadrado.area();
 		Assert.assertEquals(valorEsperado, valorObtenido);
