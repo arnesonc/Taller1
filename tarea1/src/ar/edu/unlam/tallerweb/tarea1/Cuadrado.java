@@ -1,4 +1,4 @@
-package tarea1;
+package ar.edu.unlam.tallerweb.tarea1;
 
 public class Cuadrado {
 	
