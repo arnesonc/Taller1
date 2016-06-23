@@ -15,6 +15,7 @@ public class MateriaTest {
 	@Test(expected = Exception.class)
 	public void verificaNoSePuedaEvaluarParcialMenorDeUno() throws Exception{
 		materia.evaluar(0, 8);
+		materia.examen1.getNota();
 	}
 	
 	@Test(expected = Exception.class)
